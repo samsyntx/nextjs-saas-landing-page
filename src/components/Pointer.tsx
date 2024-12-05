@@ -7,7 +7,7 @@ const Pointer = (props: { name: string; color?: "red" | "blue" }) => {
 
     return (
         <div >
-            <MousePointer2 size={30} className="mb-1"/>
+            <MousePointer2 size={25} className="mb-1"/>
             <p
                 className={twMerge(
                     "ml-5 inline-flex rounded-full font-bold text-sm bg-blue-500 px-2 rounded-tl-none",
